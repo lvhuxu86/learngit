@@ -21,3 +21,12 @@ git reset HEAD <file>	丢弃暂存区的修改，如果需要丢掉工作去的�
 
 git rm <file>	删除一个文件，删除后只能恢复到版本库里最新的内容，最后一次修改未提交的内容无法恢复
 
+ssh-keygen -t rsa -C "youremail@example.com"	创建gitssh key
+
+git remote add origin https://github.com/lvhuxu86/learngit.git	本地仓库关联到远程仓库
+或者 git remote add origin git@github.com:git用户名/learngit.git
+git push -u origin master	
+	从当前分支master推送代码到远程仓库origin 
+	首次同步空库需要加 -u ，git会把本地master分支和远程的master分支关联起来，以后推送就不需要了
+	origin是git默认的库名，可以修改
+
