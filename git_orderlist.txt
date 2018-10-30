@@ -16,4 +16,7 @@ git log 	查看提交历史
 git log --pretty=oneline	查看提交的历史版本号和名称
 git reflog	查看历史命令
 
+git checkout -- file 	丢弃工作区的修改
+git reset HEAD <file>	丢弃暂存区的修改，如果需要丢掉工作去的修改需要继续执行git checkout -- file
+
 
