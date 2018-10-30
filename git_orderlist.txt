@@ -1,5 +1,7 @@
 mkdir	创建文件
 pwd		显示当前目录
+git init 创建管理仓库
+ls -ah	 可以查看隐藏文件
 git add <file>  	把文件添加到仓库
 git commit -m <message> 	把文件提交到仓库
 
