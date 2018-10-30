@@ -1,9 +1,9 @@
 mkdir	创建文件
 pwd		显示当前目录
-git init 创建管理仓库
-ls -ah	 可以查看隐藏文件
-git add <file>  	把文件添加到仓库
-git commit -m <message> 	把文件提交到仓库
+git init	 创建管理仓库
+ls -ah	 	 可以查看隐藏文件
+git add <file>  	把文件添加到仓库(从工作区workstations添加到版本库的暂存区stage）
+git commit -m <message> 	把文件提交到仓库（把文件从暂存区提交到主线区master，master区有一个指针HEAD,可以指向不同的版本号）
 git status		查看工作区状态
 get diff	 查看修改内容
 git reset --hard commit_id	在历史版本之间穿梭
