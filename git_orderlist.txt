@@ -1,0 +1,5 @@
+mkdir	创建文件
+pwd		显示当前目录
+git add <file>  	把文件添加到仓库
+git commit -m <message> 	把文件提交到仓库
+
