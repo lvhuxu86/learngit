@@ -44,6 +44,15 @@ git branch -d <name>	删除分支
 git log --graph		查看分支合并图
 git merge --no-ff -m "提交描述" dev(需要被合并的分支名）
 
+git stash	将当前工作区暂存
+git stash pop 回到工作去，并删除暂存区内容，等于git stash apply + git stash drop
+git stash apply		从暂存区恢复工作区
+git stash apply stash@{x}	恢复到指定的暂存区
+git stash drop		删除暂存区
+git stash list		查看暂存区列表
+
+
+
 
 
 	
