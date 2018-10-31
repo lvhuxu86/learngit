@@ -40,6 +40,7 @@ git checkout <name>		切换分支
 git checkout -b <name>		创建并切换分支
 git merge <name>		合并某个分支到当前分支
 git branch -d <name>	删除分支
+git branch -D <name>	强制删除未合并的分支
 
 git log --graph		查看分支合并图
 git merge --no-ff -m "提交描述" dev(需要被合并的分支名）
