@@ -33,6 +33,14 @@ git push -u origin master
 	origin是git默认的库名，可以修改
 	
 git clone git@github.com:lvhuxu86/gitskills.git		从git@github.com:lvhuxu86/gitskills.git路径克隆仓库到本地
+
+git branch		查看分支
+git branch <name>	创建分支
+git checkout <name>		切换分支
+git checkout -b <name>		创建并切换分支
+git merge <name>		合并某个分支到当前分支
+git branch -d <name>	删除分支
+
 	
 	
 
